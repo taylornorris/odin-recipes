@@ -3,17 +3,25 @@
     font-family: Arial, Verdana, sans-serif;
     font-size: 10px;
     background-color: rgb(46, 46, 46);
-    text-align: center;
     margin: none;
     padding: none;
 }
 
-body {
-    padding: 5rem 3rem;
-}
-
 h1 {
     font-size: 6rem;
+}
+
+h1, .recipe-links li {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.6rem;
 }
 
 a {
@@ -25,15 +33,34 @@ a {
 }
 
 a:hover {
-    color: rgb(109, 109, 255);
+    background-color: rgb(109, 109, 255);
     padding: .6em;
 }
 
-ul {
-    list-style: none;
-    display: inline;
+.food-image {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
 }
 
 li {
-    margin-top: 4rem;
+    font-size: 1.6rem;
+    
 }
+
+.recipe {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.recipe-links {
+    display: inline;
+}
+
